@@ -1,0 +1,31 @@
+.style1{
+    color: red;
+}
+
+.style2{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.style2 a{
+    color: green;
+    display: inline-block;
+    margin-left: 42px;
+    text-align: center;
+    width: 50px;
+    height: 16px;
+    background-color: pink;
+}
+
+.style2 p{
+    margin-bottom: 24px;
+    padding: 8px 16px;
+    border: 1px solid #000;
+    color: grey;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.mb-2{
+    margin-bottom: 2rem;;
+}

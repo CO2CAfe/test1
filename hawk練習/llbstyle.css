@@ -1,0 +1,145 @@
+/* table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+*,*:before, *:after{
+    box-sizing:border-box;
+}
+img{
+    vertical-align: middle;
+}
+
+
+}
+
+/* 以上為css項目 */
+
+html , body{
+    margin: 0px 0px;
+}
+
+*{
+    line-height: 1.5;
+    font-size: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+
+.conta{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 95px;
+    color: black;
+    border-bottom: 2px solid #000;
+    padding-bottom: 24px;
+    margin: 0px 0px;
+}
+
+h4{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 32px;
+    border-bottom: 2px solid #000;
+    margin-bottom: 0;
+    text-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+}
+
+h4 > span{
+    padding-left: 16px;
+    color: #a30101;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+#avatar{
+    width: 324px;
+    height: 324px;
+    border-radius: 100%;
+    margin: 48px 0px;
+
+}
+
+p{  
+    font-weight: 400;
+    font-style: 24px;
+    line-height: 36px;
+}
+
+.blueCon{
+    width: 1200px;
+    padding: 40px 0px ;
+    background-color: #415165;
+}
+
+h5{
+    width: 996px;
+    margin: 0 auto;
+    /* padding-top: 40px; */
+    font-size: 32px;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+
+.blueP{
+    font-size: 24px;
+    width: 210px;
+    height: 375px;
+    margin: 0 auto;
+    padding-left: 2%;
+    color: #fff;
+    text-align: left;
+    border-left: 2px solid #fff;
+}
+
+.blueP > p{
+    line-height: 34px;
+}
+
+.workP{
+    margin-top: 21px;
+    margin-left: 25px;
+    border-left: 2px solid #000;
+    padding-left: 24px;
+}
+
+.workP > p {
+    margin-top: 0;
+    width: 800px;
+}
+
+h6 , #p5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0px 0px 32px 0px;
+}
+
+#p5{
+    margin-bottom: 0px;
+}
+
+.workP > img{
+    margin: 8px 0px;
+}
+
+.bott{
+    margin: 0px 0px;
+    text-align: center;
+    color: #fff;
+    background-color: #415165 ;
+    height: 400px;
+}
+
+.bott > h5{
+    padding: 24px 0px 8px 0px;
+    width: 1200px;
+}
